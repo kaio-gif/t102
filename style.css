@@ -1,0 +1,91 @@
+body{
+margin: 0;
+}
+nav {
+    background-color: orange;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav a:hover{
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-size: 15pt;
+    font-family: 'Courgette', cursive;
+
+}
+
+#sem{
+    margin: 0;
+    font-size: 30pt;
+    padding: 40px;
+}
+
+.banner h1, h4{
+    margin: 0;
+    font-family: 'Courgette', cursive;
+}
+.banner {
+    height: 500px;
+    background-image: url("img/receitas.jpg");
+    background-image: cover;
+    text-align: center;
+    background-color: #1e3716;
+
+
+}
+.cadastro{
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+}
+.cadastro div h3 {
+    font-family: 'Courgette', cursive;
+    text-align: center;
+}
+.cadastro div{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.banner h1, h4{
+    background-color: rgb(14, 13, 13);
+    opacity: 0.5;
+    border-radius: 2px;
+}
+
+input{
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.botao{
+    background-color: white;
+    color: #1e3716;
+}
+.botao:hover{
+    background-color: blueviolet;
+    color: white;
+    font: 15px;
+
+}
+ ::placeholder{
+     color: blanchedalmond;
+     font-size: 10pt;
+ }
+ footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+ }
+
+
